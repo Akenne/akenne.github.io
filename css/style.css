@@ -89,11 +89,11 @@
 /* BG */
 
 	#bg {
-		-moz-animation: bg 400s linear infinite;
-		-webkit-animation: bg 400s linear infinite;
-		-o-animation: bg 400s linear infinite;
-		-ms-animation: bg 400s linear infinite;
-		animation: bg 400s linear infinite;
+		-moz-animation: bg 0s linear infinite;
+		-webkit-animation: bg 0s linear infinite;
+		-o-animation: bg 0s linear infinite;
+		-ms-animation: bg 0s linear infinite;
+		animation: bg 0s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-o-backface-visibility: hidden;
@@ -105,7 +105,7 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		/* Set your background with this */
-		background: #02458B url("images/bg.jpg") bottom left;
+		background: #00256B url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -120,7 +120,7 @@
 	@keyframes bg { 0% { -moz-transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); -o-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); transform: translate3d(0,0,0); } 100% { -moz-transform: translate3d(-2250px,0,0); -webkit-transform: translate3d(-2250px,0,0); -o-transform: translate3d(-2250px,0,0); -ms-transform: translate3d(-2250px,0,0); transform: translate3d(-2250px,0,0); } }
 
 	#bg {
-		background-size: 2650px auto;
+		background-size: 1950px auto;
 		width: 6750px;
 	}
 
