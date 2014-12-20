@@ -1,0 +1,73 @@
+---
+layout: blank
+---
+
+<!DOCTYPE HTML>
+<!--
+	Modified by Adam Kenneweg based on HTML5 UP Strata.
+-->
+<html>
+
+<head>
+    <title>Adam Kenneweg</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="../js/blog/jquery.min.js"></script>
+    <script src="../js/blog/jquery.poptrox.min.js"></script>
+    <script src="../js/blog/skel.min.js"></script>
+    <script src="../js/blog/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="../css/blogskel.css" />
+        <link rel="stylesheet" href="../css/blogstyle.css" />
+        <link rel="stylesheet" href="../css/blogstyle-xlarge.css" />
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+    <!-- Include Icon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body id="top">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="/index.html" class="image avatar"><img src="../images/avatar.jpg" alt="Adam Kenneweg' Photo" />
+        </a>
+        <h1><strong>Adam Kenneweg</strong></h1>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- One -->
+        {% for post in site.categories.blog %}
+        <section id="one">
+            {% if forloop.first %}
+            {% endif %}
+            <header class="major">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+            <p>{{ post.description }}</p>
+            <div class="date">
+                {{ post.date|date:"%F" }}
+            </div>
+        </section>
+        {% endfor %}
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+			<li><a href="#" class="fa fa-file"> Resume</a></li>
+			<li><a href="/blog" class="fa fa-comment"> Blog</a></li>
+			<li><a href="/project" class="fa fa-briefcase"> Projects</a></li>
+			<li><a href="/about" class="fa fa-user"> About</a></li>
+			<li><a href="mailto:akennewe@uwaterloo.ca" class="fa fa-envelope-o"> Email</a></li>					
+        </ul>
+        <br /><br /><br />
+    </footer>
+    {% include js.html %}
+</body>
+
+</html>
