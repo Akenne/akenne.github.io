@@ -5,6 +5,9 @@
 */
 
 /* List */
+ul.icons li {
+	text-align: center;
+}
 
 	ul.actions {
 		margin: 0 0 2em 0;
@@ -41,7 +44,7 @@
 /* Header */
 
 	#header {
-		padding: 4.5em 1.5em;
+		padding: 4.51em 1.5em;
 	}
 
 		#header h1 br {
@@ -51,6 +54,7 @@
 /* Footer */
 
 	#footer .copyright li {
+		text-align: left;
 		border-left-width: 0;
 		display: block;
 		line-height: 2.25em;

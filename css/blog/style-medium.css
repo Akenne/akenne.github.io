@@ -5,7 +5,9 @@
 */
 
 /* Basic */
-
+ul.icons li {
+	text-align: center;
+}
 	h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 		display: none;
 	}
@@ -74,6 +76,7 @@
 /* Main */
 
 	#main {
+	text-align: center;
 		margin: 0;
 		padding: 6em 4em;
 		width: 100%;
