@@ -5,7 +5,9 @@
 */
 
 /* Basic */
-
+ul.icons li {
+	text-align: center;
+}
 	h1 {
 		font-size: 1.5em;
 	}
