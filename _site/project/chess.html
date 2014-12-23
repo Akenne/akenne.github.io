@@ -39,7 +39,7 @@
         <a href="/index.html" class="image avatar"><img src="../images/avatar.jpg" alt="Adam Kenneweg' Photo" />
         </a>
         <h1><strong>I am Adam Kenneweg,</strong> a computer<br />
-				science student going to the<br />
+				science student attending the<br />
 				University of Waterloo.</h1>
     </header>
 
@@ -48,15 +48,46 @@
         <!-- One -->
         <section id="one">
             <header class="major">
-                <h2><a href="/project/test%20project%20these%20would%20be%20words.html">Test project these would be actual words</a></h2>
+                <h2><a href="/project/chess.html">Chess.com Bot</a></h2>
             </header>
-            <p>I assume these would be words too but slightly longer than the above words so blah blah bblah blah</p>
+            <p>Endlessly plays chess for you</p>
             <div class="date">
-                2014-12-20
+                2014-12-10
             </div>
             <br />
             <div class="content">
-                <p>assume these would be words tassume these would be words tassume these would be words tassume these would be words tassume these would be words tassume these would be words tassume these would be words tassume these would be words t</p>
+                <h3 id="what?">What?</h3>
+
+<p>This is probably my first big project, it was written in Python. The idea is that it plays (read: winds) chess for you (forever) 
+on chess.com. This was just a fun project to play around with Python, and learn some new things. At the time I was playing a lot of chess,
+and I decided I could probably make a program to play for me. I made this in April 2014.</p>
+
+<h3 id="how?">How?</h3>
+
+<p>The way it works is that it will continously scan the board to see where the opponent moved, and then add this move (ex A2A4, meaning
+you moved the piece on a2 to a4) to a log. Now there are chess engines that can take the state of the board and give the best move,
+I used stockfish and critter. The program will send a line to the cmd of the chess engine, and the chess engine will spit out the
+best move. The program will then take control of the mouse, and make the move. This repeats until the game is over, and then a new player
+is found. </p>
+
+<p>The fun part for me was trying to make it seem human. I ended up doing a lot of things to make the program appear more human. Where the program 
+picks up and drops pieces is randomized. The speed of mouse movement is random. The mouse idly moves randomly. The time between moves is based on 
+the time the opponents last move took + some randomness (to simulate thinking). The time to actually move the pieces is random. The intelligence 
+of the engine is much higher at beginning(to mirror human openings).</p>
+
+<h3 id="problems">Problems</h3>
+
+<p>I had some trouble with the program knowing which player you are, and the best method I found was changing your profile picture to a specific
+image, and then the program scans the screen for the image and see which side you are on. I used a lot of &quot;win32api&quot;, in order to control mouse
+movements. I also got to figure out how subprocesses work, and that running too many gives me a BSOD. Many times the program went bezerk and I lost
+mouse control, forcing me to altf4 everything until I eventually figured out a way to force end the program. Because it uses x and y coordinates,
+and people have different screen sizes, it took a while to figure out how to make sure the mouse is moving to the correct spots. I got it to work
+by scanning the screen for the corner of the board, and then doing some math to see where the squares are.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Overall this was really fun to make, and seeing my program actually work at the end was very rewarding. I was able to put a lot of my &quot;theoretical&quot;
+ Python knowledge into practice.</p>
 
             </div>
             <br />
@@ -65,10 +96,26 @@
                 
                     
                 
+                    
+                
+                    
+                
+                
+                    
+                
+                    
                 
                     
                 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                    
+                
+                    
+                    <a href="/project/spidercrawler.html" title="Next post" class="fa fa-forward"></a>
+                    &nbsp;&nbsp;
+                    <a href="/project/watisfood.html" title="Last post" class="fa fa-fast-forward"></a>
+                    
                 
                     
                 
