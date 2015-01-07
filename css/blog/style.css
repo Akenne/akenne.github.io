@@ -23,7 +23,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 body, input, select, textarea {
     color: #a2a2a2;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: 400;
     line-height: 1.75em;
 }
@@ -726,7 +726,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 
 #header {
     background-color: #000000;
-    background-attachment: scroll, fixed;
+    background-attachment: fixed, fixed;
     background-image: url("images/overlay.png"), url("../../images/bg.jpg");
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
@@ -762,7 +762,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 #footer {
     bottom: 0;
     left: 0;
-    padding: 0 4em 6em 0;
+    padding: 20em 4em 6em 0;
     position: fixed;
     text-align: left;
     width: 35%;

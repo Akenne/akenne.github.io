@@ -51,8 +51,8 @@ ul.icons li {
 		background-size: auto;
 		bottom: auto;
 		left: auto;
-		padding: 4em 4em 6em 4em;
-		position: relative;
+		padding: 2em 4em 16em 4em;
+		position: absolute;
 		text-align: center;
 		width: 100%;
 	}

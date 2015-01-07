@@ -10,9 +10,9 @@ I’m passionate about programming, and I’m currently exploring how this can f
 
 ###I enjoy:###
 * attending social events with friends
-* reading various things(my favourite genre is fantasy)
-* travelling to various parts of the world
-* watching movies(my favourite is Fight Club)
+* reading various things (my favourite genre is fantasy)
+* travelling to different parts of the world
+* watching movies (my favourite is Fight Club)
 * solving puzzles(rubik's cubes, logic puzzles, programming problems)
 * cooking and eating food
 
