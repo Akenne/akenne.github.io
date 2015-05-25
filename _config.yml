@@ -6,7 +6,7 @@ gems:
   - jekyll-sitemap
 
  # Avoid pygments.rb
-highlighter: false
+highlighter: pygments
 
 #Enalbe MathJax
 markdown: redcarpet
