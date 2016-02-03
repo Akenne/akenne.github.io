@@ -1,14 +1,34 @@
 # Outputting
 permalink:     none
+title:            Blog
+description:      A computer science student's blog
+url:              # Site url, without a slash at the end.
+signoff:          Adam Kenneweg
+disqus_shortname: akenneweg
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: UA-73223947-1
+
+links:
+  - name:         Home
+    url:          /
+  - name:         Blog
+    url:          /blog
+  - name:         Projects
+    url:          /projects
+  - name:         Gallery
+    url:          /gallery
+  - name:         Resume
+    url:          /resume.pdf
+permalink:        pretty
 
 #Enable Automatic Sitemap Generation
 gems:
   - jekyll-sitemap
 
  # Avoid pygments.rb
-highlighter: pygments
+highlighter: none
 
 #Enalbe MathJax
 markdown: redcarpet
 redcarpet:
-  extensions: ["fenced_code_blocks", "with_toc_data", "no_intra_emphasis"]
+  extensions: ["fenced_code_blocks", "with_toc_data", "no_intra_emphasis", "smart"]

@@ -1,0 +1,29 @@
+{
+  "regions": [
+    "CAN/ON",
+    "CAN/QC",
+    "ITA2",
+    "AUS2",
+    "USA/PA",
+    "USA/FL",
+    "USA/NY",
+    "USA/DC",
+    "USA/NC",
+    "USA/SC",
+    "USA/WV",
+    "USA/VA",
+    "USA/MD"
+  ],
+  "places": [
+    {
+      "name": "Barrie, Ontario",	
+      "coordinate": [44.38936, -79.69033],
+      "icon": "images/map-icons/home.png"
+    },
+    {
+      "name": "Waterloo, Ontario",
+      "coordinate": [-80.5204096, 43.4642578],
+      "icon": "images/map-icons/school.png"
+    }
+  ]
+}
