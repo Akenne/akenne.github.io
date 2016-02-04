@@ -121,6 +121,7 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.8)
     redcarpet (3.3.3)
+    rouge (1.6.2)
     safe_yaml (1.0.4)
     sass (3.4.21)
     sawyer (0.6.0)
@@ -143,6 +144,7 @@ DEPENDENCIES
   github-pages
   jekyll-sitemap
   redcarpet
+  rouge (= 1.6.2)
 
 BUNDLED WITH
    1.11.2
