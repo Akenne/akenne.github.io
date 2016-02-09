@@ -2,7 +2,7 @@
 layout: post
 title: Interview Question 1 - Getting subsets of a set
 description: figuring out how to find all the subsets of a set
-category: blog
+category: project
 disqus: y
 ---
 

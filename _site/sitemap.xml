@@ -8,68 +8,80 @@
 
 <url>
   <loc>http://www.akenneweg.com/</loc>
-  <lastmod>2016-02-03T00:15:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/gallery/</loc>
-  <lastmod>2016-02-03T00:15:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/blog/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/projects/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/resume.pdf</loc>
-  <lastmod>2016-02-03T00:15:25+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.akenneweg.com/blog/2015/05/12/Interviewing-tips-for-your-first-coop-job/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.akenneweg.com/blog/2016/01/26/Interview-Questions-2-Shortest-path-between-two-vertices/</loc>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.akenneweg.com/blog/2016/01/16/Interview-Questions-1-subsets-of-set/</loc>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.akenneweg.com/blog/2015/05/12/Interviewing-tips-for-your-first-coop-job-Copy/</loc>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/blog/2014/12/28/software-engineering-vs-computer-science/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/blog/2014/12/22/1a-computer-science-classes/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/projects/2014/12/18/WatIsFood-Hack-the-North-2014/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/projects/2014/12/13/Spider-Crawler-A-Team-Fortress-2-Backpack-Scanner/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://www.akenneweg.com/projects/2014/12/10/Chess.com-Bot/</loc>
-  <lastmod>2016-02-03T00:15:28+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
+  <lastmod>2016-02-08T15:56:18+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>
