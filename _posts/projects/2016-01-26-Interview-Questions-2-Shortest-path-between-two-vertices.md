@@ -2,7 +2,7 @@
 layout: post
 title: Interview Question 2 - shortest path between two vertices, Dijkstra's algorithm
 description: figuring out how to find the shortest path between two vertices in a graph.
-category: project
+category: projects
 disqus: y
 ---
 
