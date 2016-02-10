@@ -1,6 +1,6 @@
 ﻿<?php
 
-$siteOwnersEmail = 'me@michaelshao.com';
+$siteOwnersEmail = 'akenneweg@uwaterloo.ca';
 
 function test_input($data)
 {
