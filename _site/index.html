@@ -185,38 +185,26 @@
 		<div class="row">
 			<div class="eight columns">
 				<!-- form -->
-				<form action="" method="post" id="contactForm" name="contactForm">
+				<form action="//formspree.io/akennewe@uwaterloo.ca" method="POST" id="contactForm" name="contactForm">
 					<fieldset>
 						<div>
-							<label for="contactName">Name:<span class="required">*</span></label>
-							<input type="text" value="" size="35" id="contactName" placeholder="(required) Your Name" name="contactName">
+							<label for="contactName">Name:</label>
+							<input type="text" value="" size="35" id="contactName" placeholder="Your Name" name="name">
 						</div>
 						<div>
-							<label for="contactEmail">E-mail:<span class="required">*</span></label>
-							<input type="text" value="" size="35" id="contactEmail" placeholder="(required) [email]@[domain]" name="contactEmail">
+							<label for="contactEmail">E-mail</label>
+							<input type="text" value="" size="35" id="contactEmail" placeholder="Your Email" name="_replyto">
 						</div>
 						<div>
-							<label for="contactSubject">Subject:</label>
-							<input type="text" value="" size="35" id="contactSubject" placeholder="(optional)" name="contactSubject">
+							<label for="contactMessage">Message:</label>
+							<textarea cols="50" rows="15" id="contactMessage" placeholder="Type your message here!" name="body"></textarea>
 						</div>
 						<div>
-							<label for="contactMessage">Message:<span class="required">*</span></label>
-							<textarea cols="50" rows="15" id="contactMessage" placeholder="(required) Type your message here! (Minimum 50 characters)" name="contactMessage"></textarea>
-						</div>
-						<div>
-							<button class="submit">Submit</button>
-							<span id="image-loader">
-								<img alt="" src="images/loader.gif">
-							</span>
+						<label for="contactEmail"></label>
+							<input type="submit" value="send">
 						</div>
 					</fieldset>
 				</form> <!-- Form End -->
-			<!-- contact-warning -->
-			<div id="message-warning">ERROR</div>
-				<!-- contact-success -->
-				<div id="message-success">
-				<i class="fa fa-check"></i>Your message was sent, thank you for reaching out!<br>
-				</div>
 			</div>
 			<aside class="four columns footer-widgets">
 				<div class="widget widget_contact">
